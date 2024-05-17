@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:todo/screens/BeautyProduct.dart';
 import 'package:todo/screens/Discovery.dart';
  import 'package:todo/screens/Home.dart';
  import 'package:todo/screens/Plant.dart';
 import 'package:todo/screens/Gofit.dart';
+import 'package:todo/screens/Testfolder/TestForm.dart';
+//import 'package:todo/screens/Travel/Home.travel.dart';
+import 'package:todo/screens/Travel/Intro.travel.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +27,13 @@ class MyApp extends StatelessWidget {
       //home: Home() ,
       //home:const PlantLanding(),
       //home:Discovery(),
-      home: GofitHome(),
+      //home: GofitHome(),
+      //home:BeautyProduct(),
+      //home: IntroTravel(),
+      home: MyHomePage(),
+      //home:HomeTravel(),
     );
   }
 }
+
+

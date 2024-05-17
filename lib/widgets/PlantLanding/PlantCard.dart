@@ -18,7 +18,7 @@ class PlantCard extends StatelessWidget {
             width: 300,
             margin: const EdgeInsets.only(bottom: 16),
             child: Image.network(
-              "https://media.istockphoto.com/id/1457941583/photo/lot-of-houseplants-growing-on-window-sill-from-left-ardisia-crenata-euphorbia-leuconeura.jpg?s=1024x1024&w=is&k=20&c=3W0QhE0m5AFjSCO_UMRsfwSlfy0ZKDHC2YsPkvxmEMY=",
+              "https://cdn.pixabay.com/photo/2023/05/29/00/24/blue-tit-8024809_640.jpg",
               fit: BoxFit.cover,
             ),
           ),
